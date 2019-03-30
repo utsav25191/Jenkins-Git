@@ -19,7 +19,7 @@ public class HomePage extends ReusableFunctions {
 	public static void main(String[] args) throws InterruptedException {	
 		//Making of Extent Report
 		
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/Report1.html");
+		ExtentHtmlReporter reporter = new ExtentHtmlReporter("Report1.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(reporter);
 		
